@@ -1,6 +1,7 @@
 # 💻 Portfolio Profissional – Jefferson Silva
 
-![Portfolio Layout](./assets/TechPortfolio.png)
+![Portfolio Layout](https://github.com/user-attachments/assets/713ee0ee-64f0-4680-9e54-67468d05b2b9)
+
 
 Portfólio moderno e interativo desenvolvido com **React**, **TypeScript** e **TailwindCSS**, projetado para destacar habilidades e apresentar uma experiência visual imersiva.
 
@@ -67,3 +68,6 @@ Após clonar o projeto, instale as dependências:
 - Instale a extensão live server para abrir a página.
 
 
+## Links 🔗 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jefferson-silva-2258ab230/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jeffdsilva.29@gmail.com)
