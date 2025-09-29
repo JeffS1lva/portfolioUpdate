@@ -1,54 +1,38 @@
-# React + TypeScript + Vite
+# TechPortfolio – Jefferson Silva 🧑🏼‍💻
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfólio profissional desenvolvido em **React**, **TypeScript** e **TailwindCSS**, apresentando meus projetos, habilidades e informações de contato de forma moderna e interativa.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Projetos em Destaque
 
-## Expanding the ESLint configuration
+### TradeHub 📊
+**Descrição 📎**  
+TradeHub é um portal corporativo para gestão de pedidos e operações comerciais. Com dashboards intuitivos, controle de inadimplentes e relatórios detalhados, a plataforma permite acompanhar processos em tempo real, otimizar decisões e melhorar a eficiência da equipe.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+**Desenvolvimento do Projeto**  
+- Funcionalidades: controle de pedidos, dashboards financeiros, relatórios detalhados.  
+- Próximos passos: adicionar alertas de inadimplência e integração com sistemas externos.  
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+**Funcionalidades 🔍**  
+- Gestão de pedidos e operações comerciais  
+- Dashboards interativos  
+- Relatórios detalhados por clientes e produtos  
+- Controle de inadimplentes  
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+**Frontend:**  
+- React  
+- TypeScript  
+- TailwindCSS  
+- Shadcn/UI  
+- Lucide Icons  
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+**Backend:**  
+- Node.js  
+- Express  
+- PostgreSQL  
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+**Rodando Localmente ⚙️**  
+1. Clone o repositório:  
+```bash
+git clone https://github.com/JeffS1lva/My-Notes-App.git
